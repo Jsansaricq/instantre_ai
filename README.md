@@ -1,12 +1,12 @@
-# InstantLegal AI - Legal Document Generator
+# InstantRE AI - Real Estate Document Generator
 
-A Flask web application that generates professional legal documents using OpenAI's GPT-4 API and ReportLab for PDF generation.
+A Flask web application that generates professional real estate documents using OpenAI's GPT-4 API and ReportLab for PDF generation.
 
 ## Features
 
-- AI-powered legal document generation
-- Multiple document types (NDA, Terms of Service, Privacy Policy, etc.)
-- Customization based on business type, industry, and state
+- AI-powered real estate document generation
+- Multiple document types (sales contracts, leases, addendum, disclosures, etc.)
+- Customization based on real estate type, and state
 - PDF generation and download
 - Responsive web interface
 
@@ -63,7 +63,7 @@ flask run
 ## Project Structure
 
 ```
-instantlegal-ai/
+instantre-ai/
 ├── app.py                  # Main Flask application
 ├── requirements.txt        # Python dependencies
 ├── .env                    # Environment variables (not in repo)
@@ -83,4 +83,4 @@ MIT
 
 ## Disclaimer
 
-This application is for demonstration purposes only. The generated legal documents should be reviewed by a qualified legal professional before use in a real-world context. 
+This application is for demonstration purposes only. The generated real estate documents should be reviewed by a qualified legal professional before use in a real-world context. 
